@@ -11,10 +11,11 @@ auf Make als Übersetzungstool zurück.
 Ruft man make auf, so wird eine Steuerdatei Namens  **Makefile** aufgerufen ! 
 In dieser Datei sind alle relevanten Informationen zu finden -->
 
--->  was ist das Ziel der Übersetzung?
---> aus welchen Dateien (Files) besteht das Projekt?
---> welche Abhängigkeiten zwischen den Dateien sind gegegeben?
---> welche Tools (Compiler, Linker, ...) werden wie und zu welchem Zeitpunkt aufgerufen?
+-->  was ist das Ziel der Übersetzung?  
+--> aus welchen Dateien (Files) besteht das Projekt?  
+--> welche Abhängigkeiten zwischen den Dateien sind gegegeben?  
+--> welche Tools (Compiler, Linker, ...) werden wie und zu welchem Zeitpunkt aufgerufen?  
+
 
 #### Welche Übersetzungsschritte sind erforderlich ?
 
