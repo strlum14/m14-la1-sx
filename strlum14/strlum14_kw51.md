@@ -19,18 +19,18 @@ In dieser Datei sind alle relevanten Informationen zu finden -->
 
 #### Welche Übersetzungsschritte sind erforderlich ?
 
-Eigentlich besteht ein C-Projekt aus mehreren C-Quelltextdateien --> .c Dateien und den 
-dazu passenden Header-Dateien --> .h Dateien !
+Eigentlich besteht ein C-Projekt aus mehreren C-Quelltextdateien 
+  --> .c Dateien und den dazu passenden Header-Dateien --> .h Dateien !
 
 **Schritt 1:** Compilieren der Quelltextdateien zu Objektdateien --> .o Dateien
 
 Beim Atmel megaAVR µController wird hierfür der GNU-Compiler avr-gcc verwendet. Dabei muss
 man folgendes beachten: 
 
---> Mit -c wird nur compiliert, der Linker wird nicht gestartet.
---> Mit der Option -mmu wir der µC Typ mitgteilt.
---> für eine warnungsfreie Compilierung muss eine Optimierungsoption angegeben werden.
---> Manche Bibliotheksfunktionen wie zb. _delayms(..) benötigt man ein #define F_CPU ...
+--> Mit -c wird nur compiliert, der Linker wird nicht gestartet.  
+--> Mit der Option -mmu wir der µC Typ mitgteilt.  
+--> für eine warnungsfreie Compilierung muss eine Optimierungsoption angegeben werden.  
+--> Manche Bibliotheksfunktionen wie zb. _delayms(..) benötigt man ein #define F_CPU ...  
     um die Taktfrequenz mitzuteilen. Solche defines können im Quelltext oder beim Compiler
     aufruf angegeben werden. 
 
