@@ -53,7 +53,7 @@ Wäre die Ausgabe zusätzlicher Programminfos , ist aber nicht zwingend nötig.
 ### Übung am PC
 
 Ziel der Übung war, es zu verstehen wie die Übersetzung mit Hilfe der Übersetzungstools make funktioniert.
-
+--> Hier einige Ausschnitte der Übung .
 
 
 
